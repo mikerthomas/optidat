@@ -19,7 +19,7 @@ with open(my_file) as f:
                      'INDIVIDUAL DEVICE DATA ----------------OPTIIP', 'OPTISET E ** NOT PLUGGED YET **', 'OPTIPOINT500 ** NOT PLUGGED YET **', 
                      'OPTIIP-PHONE ** NOT PLUGGED YET **', 'OPTIPOINT500 ENTRY', 'OPENSTAGE 15', 'OPENSTAGE 80', 'OPTIPOINT500 BASIC', 
                      '(SOFTCLIENT)-OPTIIP', 'OPTIPOINT500 STANDARD', 'OPTIPOINT500 ADVANCE', 'OPTISET E ADVANCE', 'OPTISET E STANDARD','OPENSTAGE 40', 'OPENSTAGE 60', 
-                     'AP1120 ANALOG ADAPTER', 'DPIP', 'OPTIPOINT420 STANDARD', 'OPTIPOINT420 ADVANCE', 'OPTIPOINT600 OFFICE', 'OPTIPOINTWL2 STANDARD', 
+                     'AP1120 ANALOG ADAPTER', 'DPIP', 'OPTIPOINT420 STANDARD', 'OPTIPOINT420 ADVANCE', 'OPTIPOINT420 ECONOMY', 'OPTIPOINT420 ECONOMY PLUS', 'OPTIPOINT600 OFFICE', 'OPTIPOINTWL2 STANDARD', 
                      'OPENSTAGE 20 T', 'UFIP','V1.', 'V2.', 'V3', 'V4.', 'V5.', 'IPADDR', 'SUBIPADDR',)
 
 # import all data in searchstring into file 
@@ -103,7 +103,7 @@ with open(delimited_file,'w',newline='') as f:
     w.writerows(data)
 
 os.remove("temp.txt")
-print("\n\ntemp.txt file was succdesfully removed!")
+print("\n\ntemp.txt file was succesfully removed!")
 
 time_elapsed = datetime.now() - start_time 
 
